@@ -9,8 +9,8 @@ Se connecter au robot
     wifi : GOPIGO0X (X=1..5) , password : GOPIGO2IN013
     Connection par ssh : ssh pi@192.168.13.1 , password : pi
     Transferer un repertoire local vers le robot : scp -r mon_repertoire pi@192.168.13.1:
-    Transferer un repertoire du robot vers local : scp -r pi@192.168.13.1:repetoire repertoire_dest
-    Monter un repertoire du robot sur sa machine : sshfs pi@192.168.13.1:repetoire repertoire_dest (ne pas oublier de faire un umount repertoire_dest à la fin)
+    Transferer un repertoire du robot vers local : scp -r pi@192.168.13.1:mon_repertoire ./
+    Monter un repertoire du robot sur sa machine : sshfs pi@192.168.13.1:mon_repertoire mount_dest (ne pas oublier de faire un umount mount_dest à la fin)
 
 
 N'oubliez pas de mettre votre code dans un répertoire à vous sur le robot (dans le /home/pi).

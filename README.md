@@ -11,3 +11,8 @@ Se connecter au robot
     Transferer un repertoire local vers le robot : scp -r mon_repertoire pi@192.168.13.1:
     Transferer un repertoire du robot vers local : scp -r pi@192.168.13.1:repetoire repertoire_dest
     Monter un repertoire du robot sur sa machine : sshfs pi@192.168.13.1:repetoire repertoire_dest (ne pas oublier de faire un umount repertoire_dest à la fin)
+
+
+N'oubliez pas de mettre votre code dans un répertoire à vous sur le robot (dans le /home/pi).
+
+Pour plus de facilité, vous pouvez aussi créer des clés ssh pour ne pas avoir à taper le mdp à chaque fois.
